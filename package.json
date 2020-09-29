@@ -1,0 +1,32 @@
+{
+  "name": "lint-examples",
+  "version": "1.0.0",
+  "description": "test eslint & prettier",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "eslint": "eslint",
+    "prettier": "prettier"
+  },
+  "devDependencies": {
+    "eslint": "^7.9.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LesnovArt/lint-example.git"
+  },
+  "author": "Lesnov_Art",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/LesnovArt/lint-example/issues"
+  },
+  "homepage": "https://github.com/LesnovArt/lint-example#readme",
+  "dependencies": {
+    "eslint-config-airbnb-base": "^14.2.0",
+    "eslint-config-prettier": "^6.11.0",
+    "eslint-plugin-import": "^2.22.0",
+    "eslint-plugin-prettier": "^3.1.4",
+    "eslint-plugin-unicorn": "^22.0.0",
+    "prettier": "^2.1.2"
+  }
+}
